@@ -20,7 +20,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 @RestController
 @RequestMapping("/students")
-@Tag(name = "Student APIs", description = "Student reistration management and allocation APIs")
+@Tag(name = "Student APIs", description = "Student reistration management APIs")
 public class StudentController {
 	@Autowired
 	private StudentService service;
